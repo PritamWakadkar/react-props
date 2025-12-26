@@ -1,0 +1,129 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  background-color:white;
+}
+
+.card{
+  height: 250px;
+  width: 200px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  border: 1px solid white;
+  margin: 10px 10px 20px 10px;
+}
+
+
+.parent{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px 10px 10px 20px;
+flex-wrap: wrap;   
+}
+
+.card img{
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  border-radius: 50%;
+  border: 1px solid red;
+}
+
+.imgd{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 30px 10px 20px 10px;
+}
+
+.cname{
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    justify-content:start;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.cname p{
+  font-size: 8px;
+  margin-top: 7px;
+}
+
+.jobname{
+  margin: 5px 0 0 10px;
+  font-size: 20px;
+}
+.times{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  height: 30px;
+  margin: -10px 0 40px 30px;
+  font-size: 8px;
+
+}
+
+.times p{
+  height: 14px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  color: black;
+  border-radius:10px;
+  margin-top: 10px;
+}
+
+.money{
+  padding: 10px 0 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ padding-top: 20px;
+
+}
+
+.p1{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p2{
+  font-size: 8px;
+}
+
+.box2{
+  height: 20px;
+  margin-right:10px ;
+}
+
+.box2 button{
+ height: 30px;
+ width: 80px;  
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+.imgd p{
+  height: 20px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border: 1px solid black;
+   border-radius:20px ;
+   font-size: 10px;
+}
