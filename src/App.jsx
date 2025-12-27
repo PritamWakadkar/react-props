@@ -1,6 +1,6 @@
  import React from 'react'
  import './App.css'
- import Card from './component/Card.jsx'
+ import Card from './component/Cardd.jsx'
  
  const App = () => {
 
@@ -10,6 +10,7 @@
     companyName: "Google",
     jobTitle: "Frontend Developer",
     jobType1: "Full Time",
+    jobType2: "Part Time",
     payPerHourUSD: 45,
     publishedDaysAgo: 2,
     location: "Mumbai, India"
@@ -19,6 +20,7 @@
     companyName: "Microsoft",
     jobTitle: "Software Engineer",
     jobType1: "Full Time",
+    jobType2: "Part Time",
     payPerHourUSD: 50,
     publishedDaysAgo: 5,
     location: "Bangalore, India"
@@ -28,6 +30,7 @@
     companyName: "Amazon",
     jobTitle: "Backend Developer",
     jobType1: "Full Time",
+    jobType2: "Part Time",
     payPerHourUSD: 48,
     publishedDaysAgo: 1,
     location: "Hyderabad, India"
@@ -36,7 +39,8 @@
     companyLogo: "https://img.freepik.com/premium-vector/meta-company-logo_265339-667.jpg?semt=ais_hybrid&w=740&q=80",
     companyName: "Meta",
     jobTitle: "React Developer",
-    jobType1: "Part Time",
+    jobType1: "Full Time",
+    jobType2: "Part Time",
     payPerHourUSD: 35,
     publishedDaysAgo: 3,
     location: "Remote, India"
@@ -46,6 +50,7 @@
     companyName: "Netflix",
     jobTitle: "UI Engineer",
     jobType1: "Full Time",
+    jobType2: "Part Time",
     payPerHourUSD: 55,
     publishedDaysAgo: 4,
     location: "Pune, India"
@@ -55,6 +60,7 @@
     companyName: "Infosys",
     jobTitle: "Junior Developer",
     jobType1: "Full Time",
+    jobType2: "Part Time",
     payPerHourUSD: 20,
     publishedDaysAgo: 7,
     location: "Mysore, India"
@@ -64,6 +70,7 @@
     companyName: "TCS",
     jobTitle: "System Engineer",
     jobType1: "Full Time",
+    jobType2: "Part Time",
     payPerHourUSD: 22,
     publishedDaysAgo: 6,
     location: "Nagpur, India"
